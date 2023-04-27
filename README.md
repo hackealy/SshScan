@@ -1,1 +1,1 @@
-# SshScan
+Este script usa o nmap para identificar os serviços SSH na rede e salvá-los em um arquivo de texto chamado "ssh-services.txt". Em seguida, ele usa o Metasploit Framework para testar as vulnerabilidades de acesso no SSH. O módulo utilizado neste exemplo é o "auxiliary/scanner/ssh/ssh_version", que testa a versão do SSH nos hosts identificados.
